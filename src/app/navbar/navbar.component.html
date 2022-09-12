@@ -1,0 +1,21 @@
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>
+    <h1>Fine Luxury Event</h1>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/home'"> Home </a>
+      <a mat-button [routerLink]="'/list of event'"> Event List</a>
+      <a mat-button [routerLink]="'/viewevent'"> View Event </a>
+      <a mat-button [routerLink]="'/login'"> Login </a>
+      <a mat-button [routerLink]="'/signup'"> SignUp </a>
+      <a mat-button [routerLink]="'/search'"> Search</a>
+
+
+    </div>
+  </mat-toolbar-row>
+
+</mat-toolbar>
