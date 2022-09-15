@@ -18,16 +18,21 @@ import {RouterModule, Routes} from "@angular/router";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatCardModule} from "@angular/material/card";
 import {MatSelectModule} from "@angular/material/select";
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    EventListComponent,
     EventSearchComponent,
     DetailedViewEventComponent,
     CommentToEventComponent,
     SignupEventComponent,
+    LoginComponent,
+    HomeComponent,
+    EventListComponent
 
   ],
   imports: [
@@ -42,7 +47,9 @@ import {MatSelectModule} from "@angular/material/select";
     MatCardModule,
     MatListModule,
     MatSelectModule,
-    RouterModule
+    RouterModule,
+
+
 
   ],
 

@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-list.component.css']
 })
 export class EventListComponent implements OnInit {
-  #title = 'mouse-hover';
-  events = ['Xmas Eva', 'New year movies','Summer party']
 
   constructor() { }
 
