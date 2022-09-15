@@ -20,6 +20,7 @@ import {MatCardModule} from "@angular/material/card";
 import {MatSelectModule} from "@angular/material/select";
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import {MatMenu, MatMenuModule} from "@angular/material/menu";
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     HomeComponent,
     EventListComponent
+
 
   ],
   imports: [
@@ -48,8 +50,7 @@ import { HomeComponent } from './home/home.component';
     MatListModule,
     MatSelectModule,
     RouterModule,
-
-
+    MatMenuModule,
 
   ],
 

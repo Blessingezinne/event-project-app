@@ -1,1 +1,6 @@
-<p>event-list works!</p>
+<button mat-button [matMenuTriggerFor]="current">Current</button>
+<mat-menu #current="matMenu">
+  <button mat-menu-item>Xmas Eva Party</button>
+  <button mat-menu-item>New Year Eva</button>
+  <button mat-menu-item>Summer Holiday Party</button>
+</mat-menu>
